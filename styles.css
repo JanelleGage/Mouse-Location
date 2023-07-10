@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(71, 0, 95);
+    color: white;
+    font-family: cursive;
+
+}
+
+.container{
+    display: flex;
+    text-align: center;
+
+}
+
+.mouse-location {
+    border: 1px solid lightgray;
+    margin: 40px;
+    min-width: 180px;
+    min-height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.mouse-location h4 {
+    position: absolute;
+    top: -50px;
+    font-size: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-weight: 100;
+    color: lightgray;
+}
+
+@media (max-width:500px) {
+    .container{
+        flex-direction: column;
+    }
+}
