@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(71, 0, 95);
+    background-image: linear-gradient(to right bottom, #000000, #210413, #320425, #41003f, #47005f);
     color: white;
     font-family: cursive;
 
@@ -39,7 +39,7 @@ body {
     color: lightgray;
 }
 
-@media (max-width:500px) {
+@media (max-width:700px) {
     .container{
         flex-direction: column;
     }
